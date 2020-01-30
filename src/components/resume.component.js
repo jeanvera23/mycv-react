@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import Profile from "../assets/img/profile.jpg";
-import { Link } from "react-router-dom";
 import Typist from 'react-typist';
 import Logo1 from "../assets/img/api_logo.png";
 import Logo2 from "../assets/img/bootstrap_logo.png";
@@ -48,34 +46,36 @@ class Resume extends Component {
                     startDelay={1000}
                     onTypingDone={this.onHeaderTyped}
                     className='primary title-name uk-margin-bottom'>Skills & Experience </Typist>
-                <div className='uk-grid' data-uk-grid>
+                <div className='uk-grid' data-uk-grid data-uk-scrollspy="target: > div; cls: uk-animation-fade; delay: 500">
                     <div className='uk-width-1-1@s'>
                         <p>The main area of my expertise is front end development (client side of the web).</p>
                         <p>HTML, CSS, JS, Jquery, building small and medium web apps with ReactJS, custom plugins, and coding interactive layouts.</p>
                         <p>Visit my <a href="https://www.linkedin.com/in/jeanvera23/">LinkedIn</a> profile for more details or just contact me.</p>
-                        <Box className='logo-img'><img src={Logo1} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo2} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo3} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo4} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo5} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo6} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo7} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo8} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo9} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo10} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo11} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo12} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo13} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo14} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo15} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo16} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo17} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo18} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo19} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo20} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo21} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo22} width='60px'/></Box>
-                        <Box className='logo-img'><img src={Logo23} width='60px'/></Box>
+                        <div align='center'>
+                            <Box className='logo-img uk-animation-fade' ><img src={Logo1} width='60px' alt ='pic1'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo2} width='60px' alt ='pic2'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo3} width='60px' alt ='pic3'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo4} width='60px' alt ='pic4'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo5} width='60px' alt ='pic5'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo6} width='60px' alt ='pic6'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo7} width='60px' alt ='pic7'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo8} width='60px' alt ='pic8'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo9} width='60px' alt ='pic9'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo10} width='60px' alt ='pic10'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo11} width='60px' alt ='pic11'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo12} width='60px' alt ='pic12'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo13} width='60px' alt ='pic13'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo14} width='60px' alt ='pic14'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo15} width='60px' alt ='pic15'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo16} width='60px' alt ='pic16'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo17} width='60px' alt ='pic17'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo18} width='60px' alt ='pic18'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo19} width='60px' alt ='pic19'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo20} width='60px' alt ='pic20'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo21} width='60px' alt ='pic21'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo22} width='60px' alt ='pic22'/></Box>
+                            <Box className='logo-img uk-animation-fade'><img src={Logo23} width='60px' alt ='pic23'/></Box>
+                        </div>
                     </div>
 
                 </div>

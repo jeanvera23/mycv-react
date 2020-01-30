@@ -51,19 +51,28 @@ p {
 .secondary {
   color: #FF98A2;
 }
-
+.main_bg {
+  background-color: #F2F7FC !important;
+}
 .tm-sidebar-left {
   position: fixed;
   top: 0px;
   bottom: 0;
   box-sizing: border-box;
   width: 240px !important;
-  padding: 80px 40px 60px 30px;
+  padding: 80px 40px;
   border-right: 1px #e5e5e5 solid;
   overflow: auto;
   z-index: 1000;
 }
-
+.font-21{
+  font-size: 21px;
+}.portfolio_element_padding{
+  padding: 15px !important;
+}
+.md-btn{
+  min-width: 10px !important;
+}
 @media only screen and (min-width: 640px) {
   .page-content {
     margin-left: 240px;
